@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mahmoud taema</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 15px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 15px;
+    }
+    header nav a:hover { color: #f1c40f; }
+    .hero {
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 80px 5% 60px;
+    }
+    .hero h1 { font-size: 2.2em; margin-bottom: 10px; }
+    .hero p { font-size: 1.1em; color: #ccc; margin-bottom: 25px; }
+    .btn {
+      display: inline-block;
+      background: #f1c40f;
+      color: #1a1a1a;
+      padding: 12px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .social { margin-top: 25px; }
+    .social a { color: #fff; margin: 0 10px; text-decoration: none; font-size: 14px; }
+    section {
+      padding: 60px 8%;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    section h2 {
+      font-size: 1.8em;
+      border-bottom: 3px solid #f1c40f;
+      display: inline-block;
+      margin-bottom: 25px;
+    }
+    .about-content {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .about-content img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .about-text { flex: 1; min-width: 250px; }
+    .skills-grid {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .skills-col { flex: 1; min-width: 250px; }
+    .skills-col ul { padding-left: 20px; }
+    .contact-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+    footer {
+      text-align: center;
+      background: #1a1a1a;
+      color: #aaa;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <strong>Mahmoud Taema</strong>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>Hi, I'm Mahmoud</h1>
+  <p>Purchasing Department</p>
+  <a class="btn" href="#contact">Contact Me</a>
+  <div class="social">
+    <a href="https://www.facebook.com/mahmoud.taema.758?mibextid=ZbWKwL" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/mahmoud.taema.758?igsh=Mm9vMWNrdW5tejhl" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/mahmoud-taema-1012ba112" target="_blank">LinkedIn</a>
+    <a href="https://wa.me/201018196489" target="_blank">WhatsApp</a>
+    <a href="tel:+201018196489">Call</a>
+  </div>
+</div>
+
+<section id="about">
+  <h2>About</h2>
+  <div class="about-content">
+    <img src="imgs/m7mud.jpg" alt="Mahmoud Taema">
+    <div class="about-text">
+      <h3>I'm Mahmoud</h3>
+      <p>I graduated from the Faculty of Commerce, Benha University.</p>
+      <p>I'm working in the Purchasing Department at Venezia Ceramic Company (2021–present).</p>
+      <p>Responsible for all aspects of the purchasing process, including developing and executing purchase orders, negotiating contracts, and managing supplier relationships.</p>
+      <p>Developed and implemented a successful cost savings program that reduced costs by 10%.</p>
+      <p>Successfully managed the transition to a new procurement system, improving efficiency and accuracy.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skills-col">
+      <h3>Personal Skills</h3>
+      <ul>
+        <li>Self-motivated, initiative, high level of energy</li>
+        <li>Communication skills</li>
+        <li>Responsibility</li>
+        <li>Quick learning skills</li>
+        <li>Computer skills: Excel, Word, PowerPoint, internet navigation & browsing</li>
+      </ul>
+    </div>
+    <div class="skills-col">
+      <h3>Business Skills</h3>
+      <ul>
+        <li>Negotiate contracts and pricing with vendors</li>
+        <li>Manage the ordering process</li>
+        <li>Evaluate vendor offers and recommend the best options</li>
+        <li>Monitor supplier performance and relationships</li>
+        <li>Inventory Control</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-box">
+    <p><strong>Get In Touch</strong></p>
+    <p>+20 101 819 6489</p>
+    <p>+20 111 740 0495</p>
+    <p><strong>Where We Are</strong></p>
+    <p>El-Bajour, Elmonofia, Egypt</p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Mahmoud Taema. All Rights Reserved.
+</footer>
+
+</body>
+</html>
